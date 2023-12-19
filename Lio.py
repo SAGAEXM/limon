@@ -305,7 +305,7 @@ def limon2():
  
 class apvroval:
     def check():
-        url = "https://github.com/LIMON-HASAN-90/LIMON-HASAN/blob/main/fuck.txt"
+        url = "APPROVELLINK"
         import mechanize
         my_awm = mechanize.Browser()
         try:
