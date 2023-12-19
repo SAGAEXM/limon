@@ -1,4 +1,4 @@
-develop g f5yt#!coding : utf-8
+#!coding : utf-8
 #!usr/lib/python3.11
 #OPEN SOURCE BY JUTT
 print(" Open source by JUTTBRAND")
