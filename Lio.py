@@ -1,4 +1,4 @@
-#!coding : utf-8
+develop g f5yt#!coding : utf-8
 #!usr/lib/python3.11
 #OPEN SOURCE BY JUTT
 print(" Open source by JUTTBRAND")
@@ -305,7 +305,7 @@ def limon2():
  
 class apvroval:
     def check():
-        url = "APPROVELLINK"
+        url = "https://github.com/SAGAEXM/limon/blob/main/Lio.txt"
         import mechanize
         my_awm = mechanize.Browser()
         try:
